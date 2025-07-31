@@ -28,7 +28,7 @@ void ExibirOpcoesDoMenu()
     switch (opcaoEscolhidaNumerica)
     {
         case 1:
-            Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+            RegistrarBanda();
             break;
         case 2:
             Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
@@ -42,9 +42,15 @@ void ExibirOpcoesDoMenu()
         case -1:
             Console.WriteLine("Tchau tchau :)");
             break;
-        default: Console.WriteLine("Opção Inválida");
-        break;
+        default:
+            Console.WriteLine("Opção Inválida");
+            break;
     }
+}
+
+void RegistrarBanda()
+{
+    
 }
 
 ExibirMensagemDeBoasVindas();

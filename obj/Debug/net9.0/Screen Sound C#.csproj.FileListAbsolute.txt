@@ -12,3 +12,18 @@ C:\Users\dev arthur\Documents\Screen Sound C#\obj\Debug\net9.0\refint\Screen Sou
 C:\Users\dev arthur\Documents\Screen Sound C#\obj\Debug\net9.0\Screen Sound C#.pdb
 C:\Users\dev arthur\Documents\Screen Sound C#\obj\Debug\net9.0\Screen Sound C#.genruntimeconfig.cache
 C:\Users\dev arthur\Documents\Screen Sound C#\obj\Debug\net9.0\ref\Screen Sound C#.dll
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\bin\Debug\net9.0\Screen Sound C#.exe
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\bin\Debug\net9.0\Screen Sound C#.deps.json
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\bin\Debug\net9.0\Screen Sound C#.runtimeconfig.json
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\bin\Debug\net9.0\Screen Sound C#.dll
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\bin\Debug\net9.0\Screen Sound C#.pdb
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.AssemblyInfoInputs.cache
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.AssemblyInfo.cs
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.csproj.CoreCompileInputs.cache
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.sourcelink.json
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.dll
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\refint\Screen Sound C#.dll
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.pdb
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\Screen Sound C#.genruntimeconfig.cache
+C:\Users\jm054\OneDrive\Documentos\GitHub\Screen-Sound-C-\obj\Debug\net9.0\ref\Screen Sound C#.dll
