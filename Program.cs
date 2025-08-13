@@ -70,7 +70,7 @@ void MostrarBandasRegistradas()
     {
         Console.WriteLine($"Banda: {listaDasBandas[i]}");
     }
-    Console.WriteLine("Digite quaisquer tecla para voltar ao menu principal.");
+    Console.WriteLine("Digite uma tecla para voltar ao menu principal.");
     Console.ReadKey();
     Console.Clear();
 }
