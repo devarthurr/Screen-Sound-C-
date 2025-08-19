@@ -39,6 +39,8 @@ void ExibirOpcoesDoMenu()
         case 4: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
             break;
         case -1: Console.WriteLine("Tchau tchau :)");
+            Thread.Sleep(3000);
+            Console.Clear();
             break;
         default: Console.WriteLine("Opção Inválida");
             break;
@@ -70,7 +72,7 @@ void MostrarBandasRegistradas()
     // {
     //     Console.WriteLine($"Banda: {listaDasBandas[i]}");
     // }
-    foreach (string banda in listaDasBandas)
+    foreach (string banda in listaDasBandas) 
     {
         Console.WriteLine($"Banda: {banda}");
     }
