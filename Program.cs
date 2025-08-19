@@ -73,6 +73,7 @@ void MostrarBandasRegistradas()
     Console.WriteLine("Digite uma tecla para voltar ao menu principal.");
     Console.ReadKey();
     Console.Clear();
+    ExibirOpcoesDoMenu();
 }
 
 ExibirLogo();
