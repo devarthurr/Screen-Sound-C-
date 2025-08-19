@@ -43,6 +43,8 @@ void ExibirOpcoesDoMenu()
             Console.Clear();
             break;
         default: Console.WriteLine("Opção Inválida");
+            Thread.Sleep(3000);
+            ExibirOpcoesDoMenu();
             break;
     }
 }
