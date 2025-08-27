@@ -1,6 +1,9 @@
-﻿//Screen Sound
-string mensagemDeBoasVindas = "Bem vindos ao Screen Sound";
-List<string> listaDasBandas = new List<string> { "U2", "The Beatles", "Calypso" };
+﻿string mensagemDeBoasVindas = "Bem vindos ao Screen Sound";
+
+// Correção: Dicionário para armazenar bandas e suas avaliações
+Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
+bandasRegistradas.Add("Linkin Park", new List<int> { 1, 2, 3 });
+bandasRegistradas.Add("The Beatles", new List<int>());
 
 void ExibirLogo()
 {
@@ -30,19 +33,25 @@ void ExibirOpcoesDoMenu()
 
     switch (opcaoEscolhidaNumerica)
     {
-        case 1: RegistrarBanda();
+        case 1:
+            RegistrarBanda();
             break;
-        case 2: MostrarBandasRegistradas();
+        case 2:
+            MostrarBandasRegistradas();
             break;
-        case 3: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+        case 3:
+            Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
             break;
-        case 4: Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
+        case 4:
+            Console.WriteLine("Você escolheu a opção " + opcaoEscolhidaNumerica);
             break;
-        case -1: Console.WriteLine("Tchau tchau :)");
+        case -1:
+            Console.WriteLine("Tchau tchau :)");
             Thread.Sleep(3000);
             Console.Clear();
             break;
-        default: Console.WriteLine("Opção Inválida");
+        default:
+            Console.WriteLine("Opção Inválida");
             Thread.Sleep(3000);
             ExibirOpcoesDoMenu();
             break;
@@ -53,9 +62,9 @@ void RegistrarBanda()
 {
     Console.Clear();
     ExibirTituloDaOpcao("Registro das bandas");
-    Console.WriteLine("Digite o nome da banda que deseja registrar: ");
+    Console.Write("Digite o nome da banda que deseja registrar: ");
     string nomeDaBanda = Console.ReadLine()!;
-    listaDasBandas.Add(nomeDaBanda);
+    bandasRegistradas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
     Thread.Sleep(2000);
     Console.Clear();
@@ -66,22 +75,18 @@ void MostrarBandasRegistradas()
 {
     Console.Clear();
     ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
-    // for (int i = 0; i < listaDasBandas.Count; i++)
-    // {
-    //     Console.WriteLine($"Banda: {listaDasBandas[i]}");
-    // }
-    foreach (string banda in listaDasBandas) 
+
+    // Correção: Itera sobre as chaves (nomes das bandas) do dicionário
+    foreach (string banda in bandasRegistradas.Keys)
     {
         Console.WriteLine($"Banda: {banda}");
     }
 
-    Console.WriteLine("Digite uma tecla para voltar ao menu principal.");
+    Console.WriteLine("\nDigite uma tecla para voltar ao menu principal.");
     Console.ReadKey();
     Console.Clear();
     ExibirOpcoesDoMenu();
 }
-
-ExibirLogo();
 
 void ExibirTituloDaOpcao(string titulo)
 {
@@ -91,5 +96,4 @@ void ExibirTituloDaOpcao(string titulo)
     Console.WriteLine(titulo);
     Console.WriteLine(asteriscos + "\n");
 }
-
 ExibirOpcoesDoMenu();
