@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev arthur\\RiderProjects\\Screen-Sound-C-\\Screen Sound C#.csproj": {}
+    "C:\\Users\\jm054\\OneDrive\\Documentos\\GitHub\\Screen-Sound-C-\\Screen Sound C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev arthur\\RiderProjects\\Screen-Sound-C-\\Screen Sound C#.csproj": {
+    "C:\\Users\\jm054\\OneDrive\\Documentos\\GitHub\\Screen-Sound-C-\\Screen Sound C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev arthur\\RiderProjects\\Screen-Sound-C-\\Screen Sound C#.csproj",
+        "projectUniqueName": "C:\\Users\\jm054\\OneDrive\\Documentos\\GitHub\\Screen-Sound-C-\\Screen Sound C#.csproj",
         "projectName": "Screen Sound C#",
-        "projectPath": "C:\\Users\\dev arthur\\RiderProjects\\Screen-Sound-C-\\Screen Sound C#.csproj",
-        "packagesPath": "C:\\Users\\dev arthur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev arthur\\RiderProjects\\Screen-Sound-C-\\obj\\",
+        "projectPath": "C:\\Users\\jm054\\OneDrive\\Documentos\\GitHub\\Screen-Sound-C-\\Screen Sound C#.csproj",
+        "packagesPath": "C:\\Users\\jm054\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm054\\OneDrive\\Documentos\\GitHub\\Screen-Sound-C-\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dev arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jm054\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
