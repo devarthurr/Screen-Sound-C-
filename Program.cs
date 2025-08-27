@@ -65,7 +65,7 @@ void RegistrarBanda()
 void MostrarBandasRegistradas()
 {
     Console.Clear();
-    ExibirTituloDaOpcao("Exibindo todas as bandas registradas");
+    ExibirTituloDaOpcao("Exibindo todas as bandas registradas na nossa aplicação");
     // for (int i = 0; i < listaDasBandas.Count; i++)
     // {
     //     Console.WriteLine($"Banda: {listaDasBandas[i]}");
